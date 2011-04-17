@@ -1,0 +1,33 @@
+header
+  color: #FFF
+  padding-top: 1em
+  a
+    color: #FFF
+  h1, nav
+    padding: 5px 30px
+  h1
+    background-color: $dark_color
+    margin: 0
+    a
+      @extend .no-style-link
+    .acount
+      color: #D3EAFF
+      float: right
+      font-size: .9em
+      a
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+  nav
+    background-color: $clear_color
+    li
+      display: inline
+      margin-right: .4em
+      .active
+        background-color: #56ADF8
+        padding: 5px
+      a
+        padding: 5px
+        text-decoration: none
+        &:hover
+          background-color: $dark_color

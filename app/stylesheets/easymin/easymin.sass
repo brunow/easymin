@@ -1,0 +1,62 @@
+@import 'compass'
+@import 'compass/reset'
+@import "compass/css3/border-radius"
+@import "compass/css3/gradient"
+
++global-reset
++reset-html5
+
+@import 'config'
+@import 'flash'
+@import 'header'
+@import 'breadcrumb'
+@import 'content'
+@import 'button'
+@import 'footer'
+@import 'table'
+@import 'form'
+@import 'table'
+@import 'order'
+
+.left
+  float: left
+  
+.right
+  float: right
+
+body
+  font-size: 0.9em
+  font-family: "Trebuchet MS", Helvetica, Verdana
+  background-color: #F5F5F5
+
+.body
+  width: $page_size
+  margin: 0 auto
+  clear: both
+
+.no-style-link
+  border-style: none
+  text-decoration: none
+
+div#box
+  float: left
+  width: 295px
+  border: 1px solid #DFDFDF
+  margin-right: 1.5em
+  margin-bottom: 1.5em
+  h3
+    background-color: red
+    padding: 6px
+    margin: 0
+    background: #F5F5F5
+    background: -moz-linear-gradient(top, #F5F5F5 0%, #D6D6D6 100%)
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#D6D6D6))
+    .utils a
+      float: right
+      font-size: .7em
+      color: #535353
+  p, ul
+    margin: 8px
+
+
+
