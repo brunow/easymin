@@ -9,7 +9,7 @@ module Easymin
       def generate_layout
         path = "app/views/layouts"
         
-        template 'easymin.haml', "#{path}/#{options.name}.haml"
+        template 'easymin.haml', "#{path}/#{options.name}.html.haml"
       end
     end
   end
